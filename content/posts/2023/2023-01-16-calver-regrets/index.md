@@ -75,7 +75,7 @@ It's also interesting to note that PyPI doesn't allow zero padding as part of co
 
 The driving motivation for Conda to switch to CalVer in [CEP 8](https://github.com/conda-incubator/ceps/blob/main/cep-8.md) was to "remove ambiguity/maintainer guesswork of when and what warrants a release". Much of that CEP goes on to desribe how releases should be created bi-monthly but when I read it I didn't see much info about the pros/cons of removing semantics from the versioning.
 
-Any project can switch from an ad-hoc release cycle to a periodic release cycle. You don't need to use CalVer to do this. I think it is easy to be inspired by Ubuntu's versioning and release cycle and adopt the same thing, but I think semantics and release candence should be considered as two separate subjects.
+Any project can switch from an ad-hoc release cycle to a periodic release cycle. You don't need to use CalVer to do this. I think it is easy to be inspired by Ubuntu's versioning and release cycle and adopt the same thing, but I think semantics and release cadence should be considered as two separate subjects.
 
 Dask behaves in a similar way just a little faster, the core projects are released every two weeks regardless of what has been done in that time. Sometimes the release gets delayed if a maintainer demonstrates the the current trunk is not stable, and sometimes release happen in between to fix bugs. But due to using CalVer it isn't transparent to the user community what implications each release has for them.
 
